@@ -8,6 +8,7 @@ import { UnidadeAdmComponent } from './unidade-adm/unidade-adm.component';
 
 const routes: Routes = [
   { path: '',  component: MapComponent },
+  { path: 'mapa',  component: MapComponent },
   { path: 'unidades',  component: UnidadeAdmComponent },
   { path: 'situacao',  component: SituacaoComponent },
 ];
